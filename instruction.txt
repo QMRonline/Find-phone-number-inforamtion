@@ -1,0 +1,33 @@
+PhoneInfoga:
+It is an advanced tool which scans phone number using only free resources. First it fetches the information about career, country, area etc.., and then use Search Engine Fingerprinting to identify the owner.
+The beauty of the tool is it is built in Python, so you can run it in any platform, even Termux or in any linux pc.
+
+PhoneInfoga is one of the most advanced tools to scan phone numbers using only free resources. The goal is to first gather standard information such as country, area, carrier and line type on any international phone numbers with a very good accuracy. 
+Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
+
+Features
+Check if phone number exists and is possible
+Gather standard informations such as country, line type and carrier
+OSINT footprinting using external APIs, Google Hacking, phone books & search engines
+Check for reputation reports, social media, disposable numbers and more
+Scan several numbers at once
+Use custom formatting for more effective OSINT reconnaissance
+NEW: Serve a web client along with a REST API to run scans from the browser
+NEW: Run your own web instance as a service
+NEW: Programmatic usage with Go modules
+
+
+Lets get started.
+
+First clone the repository,
+  *git clone https://github.com/Wes974/PhoneInfoga
+  *Then lets move on to the directory to see its contents.
+  *cd PhoneInfoga
+  *ls
+  *And yeah what we do when see a requirements file, install all the requirements.
+  *pip install -r requirements.txt
+  *If pip is not in your PATH and only python does, do it as follows,
+  *python3 -m pip install -r requirementsNow come to the interesting part, we can fetch the Phone number information using the -n flag as,
+  *python3 phoneinfoga.py -n <PhoneNumber with country code>
+
+have fun
