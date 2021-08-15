@@ -20,7 +20,7 @@ NEW: Programmatic usage with Go modules
 Lets get started.
 
 First clone the repository,
-  *git clone https://github.com/Wes974/PhoneInfoga
+  *git clone https://github.com/sundowndev/phoneinfoga
   *Then lets move on to the directory to see its contents.
   *cd PhoneInfoga
   *ls
